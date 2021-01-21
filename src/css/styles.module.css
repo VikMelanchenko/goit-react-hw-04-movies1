@@ -1,0 +1,361 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Home and Movies pages */
+.cards_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.card_box {
+  margin: 10px;
+  width: 300px;
+  height: 490px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card_box:hover {
+  margin-bottom: -10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.card_poster {
+  width: 290px;
+  height: 400px;
+  margin: 5px auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card_box h5 {
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-weight: 10;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+/* Movie Details Page */
+.card_left {
+  text-align: center;
+  width: 40%;
+  height: 60%;
+  float: left;
+  overflow: hidden;
+}
+
+.card_left img {
+  width: 220px;
+  height: auto;
+  position: relative;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+}
+
+.card_right {
+  width: 60%;
+  float: left;
+  background: white;
+  height: 80%;
+  margin-bottom: 30px;
+}
+
+.card_right h2 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 40px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+
+.card_right h3 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 20px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+
+.card_right p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.card_right span {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.card_right ul {
+  list-style-type: none;
+  padding: 0 0 0 40px;
+  margin: 10px 0 0 0;
+}
+
+.card_right li {
+  display: inline;
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 40px 0 0;
+}
+
+/* Navigation and Cast and Reviews pages */
+
+.card_right_description {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.card_right_description li {
+  display: inline;
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 40px 0 0;
+}
+
+.card_right_description h3 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 20px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+
+.card_right_description p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.card_box_item {
+  margin: 10px;
+  padding: 20px;
+  width: 185px;
+  height: 260px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card_box_item img {
+  width: 160px;
+  height: 220px;
+  margin: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+}
+
+.card_box_item h3 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.card_box_item p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 10px;
+  padding: 0;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: red;
+}
+
+/* Button Go back */
+
+.button_back {
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid black;
+  padding: 10px 10px 10px 40px;
+  font-size: 15px;
+  background: url(https://cdn.onlinewebfonts.com/svg/img_173948.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  border-radius: 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.button_back:hover {
+  color: white;
+  background-color: black;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  cursor: pointer;
+}
+
+/* AppBar  */
+
+.Searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  background-color: white;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* SearchBar */
+
+.search_form {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.search_form_button {
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid black;
+  padding: 10px 10px 10px 40px;
+  font-size: 15px;
+  background: url(https://cdn.onlinewebfonts.com/svg/img_173948.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  border-radius: 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.search_form_button:hover {
+  color: white;
+  background-color: black;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  cursor: pointer;
+}
+
+.search_form_input {
+  display: inline-block;
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  border: 1 solid rgb(15, 8, 8);
+  outline: none;
+  padding: 7px;
+}
